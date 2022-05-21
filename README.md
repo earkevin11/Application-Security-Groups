@@ -76,6 +76,7 @@
 - Windows Defender Firewall > Inbound Rules > Add New > Custom > Next > Change to TCP > Specific ports > 1433 
 - Microsoft SQL Server listens on port 1433
 
+
 <p align="center">
   
 <img src="https://user-images.githubusercontent.com/104326475/169666052-b272080e-b95f-49a1-b27c-1e3dbf8979ce.png" height="290%" width="290%" alt="ASG demo"/>
@@ -88,3 +89,57 @@
 <img src="https://user-images.githubusercontent.com/104326475/169666072-70daeaba-12c6-4c73-b19e-2b6792300ad2.png" height="290%" width="290%" alt="ASG demo"/>
 
 <p/>
+
+- Then navigate to Microsot SQL Server 2019 Configuration Manager
+- SQL Server Network Configuration > Protocols for MSSQLSERVER > TCP/IP > IP Addresses > Select <em> Yes </em> for enabled and apply
+
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169666864-dbe70d52-4842-4dcb-8c2c-8d47f2c4b3d9.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+# How to restart SQL Server Services 
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169666918-582fc574-6070-456f-9e8f-111c96c33bc9.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+
+
+# Application Security Groups - Implementation
+- Now, from Databasevm, admins must control inbound traffic.
+
+# Adding inbound rule in databasevm
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169666918-582fc574-6070-456f-9e8f-111c96c33bc9.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+
+# Use Case: Deny all traffic onto database VM
+- Below is an inbound rule that denies all traffic. 
+- The deny rule trumps the allow traffic rule within Vnet due to priority rankings
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169667553-1592c6c8-803e-4914-aeba-033123beaf98.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+# Use Case: Allow demovm to access databasevm using inbound rule
+- Take private IP of demovm and add it as a source to the inbound rule for databasevm
+- Take private IP of databasevm and add it as a destination to the inbound rule for databasevm
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169668048-b3526efa-174d-428a-aa05-bb08a0e48c97.png" height="76%" width="76%" alt="ASG demo"/>
+
+<p/>
+
+
