@@ -142,4 +142,16 @@
 
 <p/>
 
+# Use Case: Implement Application Security Groups
+- Imagine if you had hundreds of <em> demovm </em> and had to add all the private IPs of each VMs into an inbound rule for an NSG.
+- Instead, Admins can use application security groups
+
+# Create ASG
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169668877-133e1dfe-8725-4e9a-863e-4bfca941a608.png" height="76%" width="76%" alt="ASG demo"/>
+
+<p/>
+
 
