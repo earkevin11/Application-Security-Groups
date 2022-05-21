@@ -159,7 +159,7 @@
 
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/104326475/169669623-f0baf5f8-fc63-4e77-a92c-f7d4c9c9df0d.png" height="25%" width="250%" alt="ASG demo"/>
+<img src="https://user-images.githubusercontent.com/104326475/169669623-f0baf5f8-fc63-4e77-a92c-f7d4c9c9df0d.png" height="250%" width="250%" alt="ASG demo"/>
 
 <p/>
 
@@ -167,7 +167,7 @@
 
 <p align="center">
   
-<img src="[https://user-images.githubusercontent.com/104326475/169669623-f0baf5f8-fc63-4e77-a92c-f7d4c9c9df0d.png](https://user-images.githubusercontent.com/104326475/169670526-cefc07c5-68f3-4bef-b31a-4e6bf91cbc9e.png)" height="25%" width="250%" alt="ASG demo"/>
+<img src="https://user-images.githubusercontent.com/104326475/169670526-cefc07c5-68f3-4bef-b31a-4e6bf91cbc9e.png" height="250%" width="250%" alt="ASG demo"/>
 
 <p/>
 
