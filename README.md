@@ -36,15 +36,55 @@
 <p/>
 
 
-
 # How to set up an Application Security Group?
 
 
 <p align="center">
   
-<img src="" height="290%" width="290%" alt="review of vnets and VMs"/>
+<img src="" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+# ASG Setup: RDP into <em> demoVM </em> download SQL serever management studio on the <em> demoVM </em>
+- Before downloading Management Studio, ensure that IEE Security Configuration is turned off.
+- Local server > IEE Security Configuration > Turn off both 
+- Download and install SSMS
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169664409-e39483f9-f7e1-4062-9341-6189ffa43623.png" height="290%" width="290%" alt="ASG demo"/>
 
 <p/>
 
 
 
+# ASG Setup: RDP into <em> databaseVM </em> and download Microsoft SQL Server on <em> databasevm </em>
+- Before downloading SQL Server, ensure that IEE Security Configuration is turned off.
+- Local server > IEE Security Configuration > Turn off both 
+- Download and install SQL Server Free Trial EXE 64-bit edition
+- Custom > Install > Installation > New SQL Server stand-alone installation or add features...
+- Select next until Database engine and select the DB engine > Mixed Mode ? Provide Password to access SQL server and add a admin user
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169665186-23f23035-8bdc-4a0d-b361-e6ec8e4d9eeb.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+# Accessing the SQL Server
+- Admins must configure Windows Firewall Advanced and add an Inbound Rule
+- Windows Defender Firewall > Inbound Rules > Add New > Custom > Next > Change to TCP > Specific ports > 1433 
+- Microsoft SQL Server listens on port 1433
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169666052-b272080e-b95f-49a1-b27c-1e3dbf8979ce.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169666072-70daeaba-12c6-4c73-b19e-2b6792300ad2.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
