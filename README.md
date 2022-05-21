@@ -154,4 +154,11 @@
 
 <p/>
 
+# Link the Application Security group to the demovm NIC. 
+- For companies that have hundreds of VMs, admins can link those vms to the ASG.
 
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169669623-f0baf5f8-fc63-4e77-a92c-f7d4c9c9df0d.png" height="25%" width="250%" alt="ASG demo"/>
+
+<p/>
