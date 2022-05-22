@@ -23,9 +23,9 @@
 
 
 # Use Case: Use Application Security Groups for host VMs to access a SQL server
-- Download Microsoft SQL Management Studio onto one VM - Application Server
-- Download SQL Server onto the Database server
-- Connect application server to the database server.
+- Download Microsoft SQL Management Studio onto one server - demovm 
+- Download SQL Server onto the Database server - databasevm
+- Connect demovm server to the database server.
 - Add the VMs acting as servers into the application security groups instead of NSGs.
 - Allow traffic from ASG within the NSG.
 
