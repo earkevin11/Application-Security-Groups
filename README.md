@@ -38,13 +38,6 @@
 
 # How to set up an Application Security Group?
 
-
-<p align="center">
-  
-<img src="" height="290%" width="290%" alt="ASG demo"/>
-
-<p/>
-
 # ASG Setup: RDP into <em> demoVM </em> download SQL serever management studio on the <em> demoVM </em>
 - Before downloading Management Studio, ensure that IEE Security Configuration is turned off.
 - Local server > IEE Security Configuration > Turn off both 
@@ -114,14 +107,6 @@
 - Now, from Databasevm, admins must control inbound traffic.
 
 # Adding inbound rule in databasevm
-
-<p align="center">
-  
-<img src="https://user-images.githubusercontent.com/104326475/169666918-582fc574-6070-456f-9e8f-111c96c33bc9.png" height="290%" width="290%" alt="ASG demo"/>
-
-<p/>
-
-
 # Use Case: Deny all traffic onto database VM
 - Below is an inbound rule that denies all traffic. 
 - The deny rule trumps the allow traffic rule within Vnet due to priority rankings
@@ -129,6 +114,22 @@
 <p align="center">
   
 <img src="https://user-images.githubusercontent.com/104326475/169667553-1592c6c8-803e-4914-aeba-033123beaf98.png" height="290%" width="290%" alt="ASG demo"/>
+
+<p/>
+
+# Remember, in order to access the SQL server, admins must use admin credentials that was created.
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169721898-4da27189-c991-4036-aeb9-db8ec1a83b4f.png" height="80%" width="80%" alt="ASG demo"/>
+
+<p/>
+
+# If admins are unable to log in, username entered may be correct. Use "sa" as username and enter the password that was created.
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/169721940-95f7023f-eb51-4063-9b2e-dd3d17149fa7.png" height="80%" width="80%" alt="ASG demo"/>
 
 <p/>
 
