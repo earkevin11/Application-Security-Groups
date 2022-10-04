@@ -5,7 +5,7 @@
 - To make security more tighter, ASGs allow IT admins to easily specific a source and destination when it comes to filtering traffic in the NSGs.
 
 
-- Instead of specifying a Source IP address within inbound rules, admins can add Virtual Machines to a Application Security Group. 
+- Instead of specifying a Source IP address for hundreds of inbound rules, admins can add Virtual Machines to a Application Security Group. 
 - This is useful for companies with 1000s of virtual machines. 
 
 
