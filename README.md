@@ -9,10 +9,9 @@
 - This is useful for companies with 1000s of virtual machines. 
 
 
-
 # Why is it useful?
 - If a company has a collection of servers where one VM is hosting an application and another VM hosting a database, admins would have to add the private IP of each server instance in the allow rule. 
-- Instead of manually adding private IP of each servers into the inbound rule of NSGs, put them into ASGs.
+- Instead of manually adding private IP of each servers into the inbound rule of NSGs, put all of the Virtual Machines and group them into the Application Security Group (ASG).
 - Then configure the Network Security Group's inbound rules and add the ASG that contains all the machines to allow.
 
 <p align="center">
