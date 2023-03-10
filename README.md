@@ -172,5 +172,12 @@
 <p/>
 
 
+# Good ASG Architecture Example from Microsoft Learn Doc
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/224397589-afb668cc-d02a-4ea1-84fb-f9eed8f011ce.png" height="250%" width="250%" alt="ASG demo"/>
+
+<p/>
 
 
